@@ -3,42 +3,62 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/grid.css">
   <meta charset="utf-8" />
   <title>Sesonger</title>
 </head>
 
 <body>
-  <div class="topnav">
-    <a class="active" href="index.html">Home</a>
-    <a href="sesonger.html">Säsonger</a>
-    <a href="https://www.netflix.com/browse" title="klicka här">Se Johan Falk idag!</a>
-    <br><a href="#botten">Till botten av sidan</a>
+  <div class="conatiner">
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="sesonger.html">Säsonger</a>
+      <a href="https://www.netflix.com/browse" title="klicka här">Se Johan Falk idag!</a>
+      <br><a href="#botten">Till botten av sidan</a>
+    </div>
+    <h1>Säsong 1</h1>
+
+    <div class="topnav">
+      <a class="active" href="index.html">Home</a>
+      <a href="sesonger.html">Säsonger</a>
+      <a href="https://www.netflix.com/browse" title="klicka här">Se Johan Falk idag!</a>
+    </div>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="img/custom.jpg" style="width:100%">
+        <div class="text">Caption Text</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="img/sport.jpg" style="width:100%">
+        <div class="text">Caption Two</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="img/supermoto.jpg" style="width:100%">
+        <div class="text">Caption Three</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
   </div>
-  <h1>Säsong 1</h1>
-  <p>Under 2009 gjorde man sex stycken nya långfilmer om Johan Falk, med Eklund respektive Richardsson kvar i sina respektive roller. Fokus lades nu på när Falk återkom från sin tjänst på Europol i Haag i Nederländerna och flyttade hem till Göteborg
-    igen. Där blir han värvad till att hamna på polishusets avdelning GSI (Gruppen för särskilda insatser). I denna omgång tillkom därför bl.a. Mikael Tornving som Falks chef Patrik Agrell och Joel Kinnaman som infiltratören Frank Wagner. Den första
-    filmen gick först upp på bio våren 2009 innan den släpptes på dvd. Övriga fem filmer släpptes endast på dvd.[3] Filmerna har visats ofta i TV4.</p>
-  <h1>Säsong 2</h1>
-  <p>I april 2010, cirka ett halvår efter att sista filmen i den första serieomgången hade släppts på dvd, meddelade skaparna av Johan Falk-filmerna, regissören Anders Nilsson och producenten Joakim Hanson, att man skulle komma att göra ytterligare
-    sex filmer om Johan Falk.[4] I omgången återkom Jakob Eklund, Joel Kinnaman, Mikael Tornving, Jacqueline Ramel, Marie Richardson och Ruth Vega Fernandez i respektive roller från föregående säsong.
-
-    De sex filmerna spelades in mellan våren 2011 och början av 2012. De fem första filmerna släpptes sedan en och en på dvd med mellan september och november 2012. Den sista filmen i serien, Kodnamn Lisa, gick upp på bio i mars 2013 innan den sedan
-    släpps på dvd i juli samma år.[5][6]</p>
-  <h1 id="botten">Säsong 3</h1>
-  <p>Den tredje säsongen av Johan Falk-filmerna består av fem filmer som fick premiär under sommaren 2015, och denna gång släpptes filmerna enbart på dvd, Blu-Ray och Video on Demand.[7][8] Enligt Anders Nilsson och Joakim Hansson, vilka är de två
-    upphovspersonerna till filmserierna om Falk, var denna säsong den sista säsongen som gjordes. Att denna säsong skulle komma att produceras meddelades i samband med att den andra säsongens sista film, Kodnamn: Lisa, hade biopremiär.[9]
-    Inspelningarna skedde under sommaren och hösten 2014.
-
-    Denna säsong samproducerades mellan Nordisk Film, Strix Drama, ZDF, Aspekt Telefilm GMBH och TV4, där bland andra TV4 köpt rättigheterna att sända filmerna på sina TV-kanaler efter dvd-släppen. I huvudrollerna syns Jakob Eklund (Johan Falk), Jens
-    Hultén (Seth Rydell), Meliz Karlge (Sophie Nordh, GSI:s nya chef), Mikael Tornving (Patrik Agrell) och Marie Richardson (Helén Falk). Dessutom återkommer karaktären Pernilla Vasquez, spelad av Alexandra Rapaport, som medverkade i den andra Johan
-    Falk-filmen Livvakterna. Bland de nya personerna i serien syns Seth Rydells nya gängkollega Jack Rolander, spelad av Björn Bengtsson och Rydells flickvän Madeleine Wiik, spelad av Aliette Opheim. Likt tidigare filmer förekommer en rad
-    gästskådespelare i respektive film.[10][11]</p>
-  <div class="topnav">
-    <a class="active" href="index.html">Home</a>
-    <a href="sesonger.html">Säsonger</a>
-    <a href="https://www.netflix.com/browse" title="klicka här">Se Johan Falk idag!</a>
-  </div>
-
+  <script src="js/script.js" charset="utf-8"></script>
 </body>
 
 </html>

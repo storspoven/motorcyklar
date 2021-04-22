@@ -1,10 +1,36 @@
 .container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: 100px 100px 300px 300px 100px;
+  grid-template-rows: 100px 50px 400px 400px 100px;
+  grid-gap: 5px
 }
 
 header {
-  grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+nav {
+  grid-column:1/-1;
+  grid-row:2/3;
+}
+
+#wow-bild {
+  grid-column:1/2;
+  grid-row:3/4;
+}
+
+section {
+  grid-column:2/3;
+  grid-row:3/4;
+}
+
+article {
+  grid-column:2/3;
+  grid-row:4/5;
+}
+
+footer {
+  grid-column:1/-1;
+  grid-row:5/6;
 }
