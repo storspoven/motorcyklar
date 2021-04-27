@@ -1,7 +1,7 @@
 .container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: 100px 50px 400px 400px 100px;
+  grid-template-rows: 100px 50px 400px auto auto auto auto auto;
   grid-gap: 5px
 }
 
@@ -20,6 +20,10 @@ nav {
   grid-row:3/4;
 }
 
+#wow-bild2 {
+  grid-column:1/2;
+  grid-row:4/5;
+}
 section {
   grid-column:2/3;
   grid-row:3/4;
@@ -33,4 +37,49 @@ article {
 footer {
   grid-column:1/-1;
   grid-row:5/6;
+}
+
+.slideshow-container {
+  grid-column:1/2;
+  grid-row:3/4;
+}
+
+.dots {
+  grid-column:1/2;
+  grid-row:5/-1;
+}
+.mctext {
+  grid-column:2/3;
+  grid-row:3/4;
+}
+
+@media only screen and (max-width: 800px){
+.mctext {
+  grid-column:1/-1;
+  grid-row:4/5;
+}
+
+.slideshow-container {
+  grid-column:1/-1;
+  grid-row:3/4;
+}
+
+section {
+  grid-column:1/-1;
+  grid-row:4/5;
+}
+
+#wow-bild2 {
+  grid-column:1/-1;
+  grid-row:5/6;
+}
+
+article {
+  grid-column:1/-1;
+  grid-row:6/7;
+}
+footer {
+  grid-column:1/-1;
+  grid-row:7/8;
+}
 }
