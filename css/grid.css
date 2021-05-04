@@ -52,7 +52,7 @@ footer {
   grid-column:2/3;
   grid-row:3/4;
 }
-
+/* Media Quary */
 @media only screen and (max-width: 800px){
 .mctext {
   grid-column:1/-1;
