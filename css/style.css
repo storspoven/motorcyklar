@@ -1,6 +1,7 @@
 body {
   font-family: copperplate, papyrus;
-  color: inherit;
+  color: white;
+  background-color: #28282B;
 }
 
 
@@ -11,10 +12,10 @@ h1 {
 nav {
   text-align: center;
 }
-
+/*
 footer {
   text-align: center;
-}
+} */
 
 * {box-sizing:border-box}
 
@@ -137,6 +138,46 @@ footer {
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #4CAF50;
+  background-color: #A0522D;
   color: white;
 }
+
+/* Footer styling */
+
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+/* Link Color */
+
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>
